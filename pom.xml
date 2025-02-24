@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.gitee.ganlinux</groupId>
   <artifactId>connectsdk-android</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <packaging>aar</packaging>
   <build>
     <plugins>
@@ -25,19 +25,29 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>androidx.core</groupId>
-      <artifactId>core-ktx</artifactId>
-      <version>1.9.0</version>
+      <groupId>io.gitee.ganlinux</groupId>
+      <artifactId>connectsdk</artifactId>
+      <version>1.0.2</version>
     </dependency>
     <dependency>
-      <groupId>androidx.appcompat</groupId>
-      <artifactId>appcompat</artifactId>
-      <version>1.7.0</version>
+      <groupId>androidx.security</groupId>
+      <artifactId>security-crypto</artifactId>
+      <version>1.1.0-alpha06</version>
     </dependency>
     <dependency>
-      <groupId>com.google.android.material</groupId>
-      <artifactId>material</artifactId>
-      <version>1.12.0</version>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-process</artifactId>
+      <version>2.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-json</artifactId>
+      <version>1.6.3</version>
+    </dependency>
+    <dependency>
+      <groupId>OKXConnectSDK</groupId>
+      <artifactId>okx-connectsdk</artifactId>
+      <version>unspecified</version>
     </dependency>
   </dependencies>
 </project>
