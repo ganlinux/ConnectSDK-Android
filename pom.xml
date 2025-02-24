@@ -44,10 +44,5 @@
       <artifactId>kotlinx-serialization-json</artifactId>
       <version>1.6.3</version>
     </dependency>
-    <dependency>
-      <groupId>OKXConnectSDK</groupId>
-      <artifactId>okx-connectsdk</artifactId>
-      <version>unspecified</version>
-    </dependency>
   </dependencies>
 </project>
