@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.gitee.ganlinux</groupId>
   <artifactId>connectsdk-android</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <packaging>aar</packaging>
   <build>
     <plugins>
@@ -25,8 +25,8 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>io.gitee.ganlinux</groupId>
-      <artifactId>connectsdk</artifactId>
+      <groupId>com.github.ganlinux</groupId>
+      <artifactId>ConnectSDK</artifactId>
       <version>1.0.2</version>
     </dependency>
     <dependency>
